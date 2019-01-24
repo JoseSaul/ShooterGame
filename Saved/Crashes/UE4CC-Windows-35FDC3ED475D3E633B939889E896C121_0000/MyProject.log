@@ -1,0 +1,942 @@
+﻿Log file open, 10/16/18 15:19:50
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: MyProject
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.310406
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.483s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4233996
+LogInit: Engine Version: 4.20.1-4233996+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU:         Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz, GPU: NVIDIA GeForce GTX 650 Ti
+LogInit: Compiled (64-bit): Jul 26 2018 10:07:30
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.008s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.10.16-14.19.51:645][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.16-14.19.51:645][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.16-14.19.51:673][  0]LogHAL: Display: Platform has ~ 8 GB [8532946944 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.16-14.19.51:673][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.16-14.19.51:673][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.16-14.19.51:679][  0]LogInit: Computer: DESKTOP-MGIJHOE
+[2018.10.16-14.19.51:679][  0]LogInit: User: Jose
+[2018.10.16-14.19.51:679][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.10.16-14.19.51:679][  0]LogInit: High frequency timer resolution =3.320313 MHz
+[2018.10.16-14.19.51:679][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.10.16-14.19.51:679][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.16-14.19.51:679][  0]LogMemory: Process Physical Memory: 101.73 MB used, 101.73 MB peak
+[2018.10.16-14.19.51:679][  0]LogMemory: Process Virtual Memory: 90.39 MB used, 90.39 MB peak
+[2018.10.16-14.19.51:679][  0]LogMemory: Physical Memory: 3069.93 MB used,  5067.72 MB free, 8137.65 MB total
+[2018.10.16-14.19.51:679][  0]LogMemory: Virtual Memory: 4639.57 MB used,  5067.72 MB free, 134217728.00 MB total
+[2018.10.16-14.19.51:735][  0]LogInit: Overriding language with editor language configuration option (en).
+[2018.10.16-14.19.51:735][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2018.10.16-14.19.52:883][  0]LogStreaming: Display: Took  1.147s to InitEngineTextLocalization.
+[2018.10.16-14.19.52:883][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.16-14.19.52:982][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.16-14.19.52:982][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.16-14.19.55:047][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.16-14.19.55:047][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.16-14.19.55:123][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 650 Ti' (Feature Level 11_0)
+[2018.10.16-14.19.55:123][  0]LogD3D11RHI:       2007/0/4068 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.10.16-14.19.55:126][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.16-14.19.55:126][  0]LogD3D11RHI:       0/0/4068 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.16-14.19.55:126][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.16-14.19.55:131][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.16-14.19.55:131][  0]LogD3D11RHI:     GPU DeviceId: 0x11c6 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.16-14.19.55:131][  0]LogWindows: EnumDisplayDevices:
+[2018.10.16-14.19.55:131][  0]LogWindows:    0. 'NVIDIA GeForce GTX 650 Ti' (P:1 D:1)
+[2018.10.16-14.19.55:132][  0]LogWindows:    1. 'NVIDIA GeForce GTX 650 Ti' (P:0 D:0)
+[2018.10.16-14.19.55:132][  0]LogWindows:    2. 'NVIDIA GeForce GTX 650 Ti' (P:0 D:0)
+[2018.10.16-14.19.55:133][  0]LogWindows:    3. 'NVIDIA GeForce GTX 650 Ti' (P:0 D:0)
+[2018.10.16-14.19.55:133][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.10.16-14.19.55:133][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 650 Ti
+[2018.10.16-14.19.55:133][  0]LogD3D11RHI:   Driver Version: 411.70 (internal:24.21.14.1170, unified:411.70)
+[2018.10.16-14.19.55:133][  0]LogD3D11RHI:      Driver Date: 9-25-2018
+[2018.10.16-14.19.55:133][  0]LogRHI: Texture pool is 1404 MB (70% of 2007 MB)
+[2018.10.16-14.19.55:190][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.16-14.19.55:213][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.10.16-14.19.55:261][  0]LogShaderCompilers: Guid format shader working directory is -1 characters bigger than the processId version (../../../../../../Users/Jose/Desktop/MyProject/Intermediate/Shaders/WorkingDirectory/6052/).
+[2018.10.16-14.19.55:262][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jose/AppData/Local/Temp/UnrealShaderWorkingDir/87E9A4C74BFA956246167997BAFCC71C/'.
+[2018.10.16-14.19.55:793][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.16-14.19.55:811][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.16-14.19.55:830][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.16-14.19.55:849][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.16-14.19.55:878][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.16-14.19.55:896][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.16-14.19.55:913][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.16-14.19.55:930][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.16-14.19.55:939][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.16-14.19.56:076][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.16-14.19.56:076][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.16-14.19.56:076][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.16-14.19.56:076][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.16-14.19.56:076][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.16-14.19.56:076][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.16-14.19.56:076][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.16-14.19.56:076][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.16-14.19.56:076][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.16-14.19.56:076][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.16-14.19.56:076][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.16-14.19.56:076][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.16-14.19.56:076][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.16-14.19.56:076][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.16-14.19.56:076][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.16-14.19.56:076][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.16-14.19.56:076][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.16-14.19.56:076][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.16-14.19.56:080][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.16-14.19.56:166][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.16-14.19.56:166][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.16-14.19.56:196][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.16-14.19.56:196][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.16-14.19.56:212][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.16-14.19.56:236][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.16-14.19.56:252][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.16-14.19.56:281][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.16-14.19.56:298][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.16-14.19.56:298][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.16-14.19.56:415][  0]LogXGEController: Cleaning working directory: C:/Users/Jose/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.10.16-14.19.56:416][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.16-14.19.56:416][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.16-14.19.56:416][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.16-14.20.00:734][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.16-14.20.01:426][  0]LogDerivedDataCache: Loaded boot cache 0.69s 71MB C:/Users/Jose/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.16-14.20.01:427][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Jose/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.10.16-14.20.01:427][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jose/Desktop/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.16-14.20.01:427][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.16-14.20.01:427][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Jose/Desktop/MyProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.16-14.20.01:427][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.16-14.20.01:464][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.16-14.20.01:478][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jose/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.16-14.20.01:478][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.16-14.20.01:478][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.16-14.20.01:497][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.16-14.20.01:498][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.16-14.20.01:538][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.16-14.20.02:448][  0]LogAssetRegistry: FAssetRegistry took 0.0338 seconds to start up
+[2018.10.16-14.20.02:878][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.16-14.20.03:284][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.16-14.20.03:290][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.16-14.20.03:290][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.16-14.20.03:290][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.16-14.20.03:290][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.16-14.20.03:305][  0]LogNetVersion: MyProject 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1110078900)
+[2018.10.16-14.20.03:963][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.074075 seconds
+[2018.10.16-14.20.03:969][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.16-14.20.03:969][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.10.16-14.20.03:969][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.16-14.20.22:248][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.16-14.20.22:262][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.16-14.20.22:708][  0]SourceControl: Source control is disabled
+[2018.10.16-14.20.22:708][  0]SourceControl: Source control is disabled
+[2018.10.16-14.20.22:711][  0]SourceControl: Source control is disabled
+[2018.10.16-14.20.22:713][  0]SourceControl: Source control is disabled
+[2018.10.16-14.20.23:104][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.16-14.20.23:231][  0]LogOcInput: OculusInput pre-init called
+[2018.10.16-14.20.23:387][  0]LogEngine: Initializing Engine...
+[2018.10.16-14.20.23:388][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.16-14.20.23:390][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.16-14.20.23:390][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.16-14.20.23:390][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.16-14.20.23:390][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.16-14.20.23:620][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.16-14.20.23:638][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.16-14.20.23:661][  0]LogInit: XAudio2 using 'LG TV (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.16-14.20.23:772][  0]LogInit: FAudioDevice initialized.
+[2018.10.16-14.20.23:773][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.16-14.20.23:947][  0]LogDerivedDataCache: Saved boot cache 0.17s 71MB C:/Users/Jose/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.16-14.20.23:960][  0]LogInit: Texture streaming: Enabled
+[2018.10.16-14.20.23:999][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.16-14.20.24:044][  0]LogInit: Transaction tracking system initialized
+[2018.10.16-14.20.24:081][  0]BlueprintLog: New page: Editor Load
+[2018.10.16-14.20.24:347][  0]LocalizationService: Localization service is disabled
+[2018.10.16-14.20.25:346][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.16-14.20.25:346][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.16-14.20.25:346][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.16-14.20.25:346][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.16-14.20.25:346][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.16-14.20.25:347][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.16-14.20.25:347][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.16-14.20.26:433][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jose/Desktop/MyProject/Content/' took 0.02s
+[2018.10.16-14.20.26:442][  0]SourceControl: Source control is disabled
+[2018.10.16-14.20.26:442][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jose/Desktop/MyProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.16-14.20.26:443][  0]LightingResults: New page: Lighting Build
+[2018.10.16-14.20.26:446][  0]MapCheck: New page: Map Check
+[2018.10.16-14.20.26:446][  0]LightingResults: New page: Lighting Build
+[2018.10.16-14.20.27:127][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.16-14.20.27:134][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.16-14.20.27:156][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.16-14.20.27:364][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 208.633ms to complete.
+[2018.10.16-14.20.27:365][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.922
+[2018.10.16-14.20.27:628][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-14.20.27:636][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-14.20.27:644][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-14.20.27:653][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-14.20.27:685][  0]LogCollectionManager: Loaded 0 collections in 0.001828 seconds
+[2018.10.16-14.20.27:731][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jose/Desktop/MyProject/Saved/Collections/' took 0.01s
+[2018.10.16-14.20.27:731][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jose/Desktop/MyProject/Content/Developers/Jose/Collections/' took 0.01s
+[2018.10.16-14.20.27:731][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jose/Desktop/MyProject/Content/Collections/' took 0.01s
+[2018.10.16-14.20.27:731][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.10.16-14.20.27:741][  0]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2573 classes and 605 folders.
+[2018.10.16-14.20.27:752][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.10.16-14.20.28:907][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.10.16-14.20.28:928][  0]LogSlate: Took 0.008865 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.16-14.20.28:937][  0]LogSlate: Took 0.004652 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.16-14.20.28:961][  0]LogSlate: Took 0.013886 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.16-14.20.29:068][  0]LogRenderer: Reallocating scene render targets to support 860x356 Format 10 NumSamples 1 (Frame:1).
+[2018.10.16-14.20.29:177][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.16-14.20.29:177][  0]LogLoad: (Engine Initialization) Total time: 50.29 seconds
+[2018.10.16-14.20.29:177][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.16-14.20.29:212][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2018.10.16-14.20.29:259][  0]LogSlate: Took 0.010868 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.16-14.20.29:306][  1]LogAssetRegistry: Asset discovery search completed in 26.8799 seconds
+[2018.10.16-14.20.29:308][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.10.16-14.20.29:308][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000063 seconds (updated 0 objects)
+[2018.10.16-14.20.57:372][607]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.16-14.20.57:463][618]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.16-14.20.57:478][618]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.20.57:478][618]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.16-14.20.57:490][618]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 16, 2018, 4:20:57 PM)
+[2018.10.16-14.20.57:491][618]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.16-14.20.57:511][618]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020275s)
+[2018.10.16-14.20.57:512][618]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.16-14.20.57:512][618]LogPlayLevel: PIE: World Init took: (0.000926s)
+[2018.10.16-14.20.57:512][618]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021480s)
+[2018.10.16-14.20.57:554][618]LogInit: XAudio2 using 'LG TV (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.16-14.20.57:566][618]LogInit: FAudioDevice initialized.
+[2018.10.16-14.20.57:573][618]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-14.20.57:949][618]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.16-14.20.57:952][618]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.16-15.20.57
+[2018.10.16-14.20.57:952][618]LogWorld: Bringing up level for play took: 0.001323
+[2018.10.16-14.20.57:971][618]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2018.10.16-14.20.57:979][618]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.066
+[2018.10.16-14.20.57:979][618]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.20.58:007][618]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2018.10.16-14.20.59:916][811]LogNet: Browse: /Game/ThirdPersonBP/Maps/Map1
+[2018.10.16-14.20.59:924][811]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/Map1
+[2018.10.16-14.21.00:884][811]LogAIModule: Creating AISystem for world Map1
+[2018.10.16-14.21.00:884][811]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.16-14.21.00:887][811]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 0) at 2018.10.16-15.21.00
+[2018.10.16-14.21.00:887][811]LogWorld: Bringing up level for play took: 0.002074
+[2018.10.16-14.21.00:890][811]LogSlate: New Slate User Created.  User Index 1, Is Virtual User: 0
+[2018.10.16-14.21.00:890][811]LogSlate: Slate User Registered.  User Index 1, Is Virtual User: 0
+[2018.10.16-14.21.00:895][811]LogLoad: Took 0.970420 seconds to LoadMap(/Game/ThirdPersonBP/Maps/Map1)
+[2018.10.16-14.21.20:448][588]LogScript: Warning: Accessed None trying to read property ArmaQuitar
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.ThirdPersonCharacter_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:QuitarArmaActual:000E
+[2018.10.16-14.21.20:448][588]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.21.20:448][588]LogScript: Warning: Accessed None
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.ThirdPersonCharacter_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:QuitarArmaActual:0023
+[2018.10.16-14.21.20:449][588]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.21.21:884][723]LogScript: Warning: Accessed None trying to read property EquipedWeapon
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.ThirdPersonCharacter_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:CambiarArma:007A
+[2018.10.16-14.21.21:884][723]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.21.21:884][723]LogScript: Warning: Accessed None
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.ThirdPersonCharacter_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:CambiarArma:008F
+[2018.10.16-14.21.21:884][723]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.21.29:409][423]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.21.29:409][423]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-14.21.29:427][423]LogSlate: Window 'MyProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.16-14.21.29:496][423]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.16-14.21.29:497][423]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.21.29:627][424]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2018.10.16-14.21.40:005][614]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.16-14.21.40:020][614]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.21.40:020][614]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.16-14.21.40:020][614]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 16, 2018, 4:21:40 PM)
+[2018.10.16-14.21.40:022][614]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.16-14.21.40:033][614]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011617s)
+[2018.10.16-14.21.40:035][614]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.16-14.21.40:035][614]LogPlayLevel: PIE: World Init took: (0.001583s)
+[2018.10.16-14.21.40:035][614]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.013429s)
+[2018.10.16-14.21.40:077][614]LogInit: XAudio2 using 'LG TV (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.16-14.21.40:088][614]LogInit: FAudioDevice initialized.
+[2018.10.16-14.21.40:094][614]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-14.21.40:132][614]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.16-14.21.40:134][614]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.16-15.21.40
+[2018.10.16-14.21.40:134][614]LogWorld: Bringing up level for play took: 0.001222
+[2018.10.16-14.21.40:153][614]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.76
+[2018.10.16-14.21.40:154][614]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.21.44:488][ 67]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.21.44:489][ 67]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-14.21.44:505][ 67]LogSlate: Window 'MyProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.16-14.21.44:534][ 67]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.16-14.21.44:534][ 67]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.21.44:591][ 71]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2018.10.16-14.21.46:083][249]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.16-14.21.46:097][249]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.21.46:098][249]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.16-14.21.46:098][249]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 16, 2018, 4:21:46 PM)
+[2018.10.16-14.21.46:098][249]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.16-14.21.46:110][249]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011211s)
+[2018.10.16-14.21.46:110][249]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.16-14.21.46:111][249]LogPlayLevel: PIE: World Init took: (0.001110s)
+[2018.10.16-14.21.46:111][249]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.012548s)
+[2018.10.16-14.21.46:148][249]LogInit: XAudio2 using 'LG TV (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.16-14.21.46:159][249]LogInit: FAudioDevice initialized.
+[2018.10.16-14.21.46:165][249]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-14.21.46:199][249]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.16-14.21.46:201][249]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.16-15.21.46
+[2018.10.16-14.21.46:201][249]LogWorld: Bringing up level for play took: 0.001279
+[2018.10.16-14.21.46:218][249]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.695
+[2018.10.16-14.21.46:219][249]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.21.47:236][348]LogNet: Browse: /Game/ThirdPersonBP/Maps/Map1
+[2018.10.16-14.21.47:244][348]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/Map1
+[2018.10.16-14.21.47:513][348]LogAIModule: Creating AISystem for world Map1
+[2018.10.16-14.21.47:514][348]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.16-14.21.47:516][348]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 0) at 2018.10.16-15.21.47
+[2018.10.16-14.21.47:516][348]LogWorld: Bringing up level for play took: 0.001990
+[2018.10.16-14.21.47:523][348]LogSlate: New Slate User Created.  User Index 2, Is Virtual User: 0
+[2018.10.16-14.21.47:523][348]LogSlate: Slate User Registered.  User Index 2, Is Virtual User: 0
+[2018.10.16-14.21.47:526][348]LogSlate: New Slate User Created.  User Index 3, Is Virtual User: 0
+[2018.10.16-14.21.47:526][348]LogSlate: Slate User Registered.  User Index 3, Is Virtual User: 0
+[2018.10.16-14.21.47:529][348]LogLoad: Took 0.285486 seconds to LoadMap(/Game/ThirdPersonBP/Maps/Map1)
+[2018.10.16-14.21.51:266][627]LogScript: Warning: Accessed None trying to read property ArmaQuitar
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.ThirdPersonCharacter_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:QuitarArmaActual:000E
+[2018.10.16-14.21.51:266][627]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.21.51:266][627]LogScript: Warning: Accessed None
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.ThirdPersonCharacter_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:QuitarArmaActual:0023
+[2018.10.16-14.21.51:267][627]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.21.52:028][686]LogScript: Warning: Accessed None trying to read property EquipedWeapon
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.ThirdPersonCharacter_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:CambiarArma:007A
+[2018.10.16-14.21.52:028][686]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.21.52:028][686]LogScript: Warning: Accessed None
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.ThirdPersonCharacter_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:CambiarArma:008F
+[2018.10.16-14.21.52:028][686]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.21.56:331][ 20]LogScript: Warning: Accessed None trying to read property ArmaQuitar
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.ThirdPersonCharacter_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:QuitarArmaActual:000E
+[2018.10.16-14.21.56:331][ 20]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.21.56:331][ 20]LogScript: Warning: Accessed None
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.ThirdPersonCharacter_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:QuitarArmaActual:0023
+[2018.10.16-14.21.56:331][ 20]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.21.57:767][132]LogScript: Warning: Accessed None trying to read property EquipedWeapon
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.ThirdPersonCharacter_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:CambiarArma:007A
+[2018.10.16-14.21.57:768][132]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.21.57:768][132]LogScript: Warning: Accessed None
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.ThirdPersonCharacter_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:CambiarArma:008F
+[2018.10.16-14.21.57:768][132]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.21.58:092][157]LogScript: Warning: Accessed None trying to read property ArmaQuitar
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.ThirdPersonCharacter_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:QuitarArmaActual:000E
+[2018.10.16-14.21.58:092][157]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.21.58:092][157]LogScript: Warning: Accessed None
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.ThirdPersonCharacter_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:QuitarArmaActual:0023
+[2018.10.16-14.21.58:093][157]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.22.02:239][479]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.22.02:240][479]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-14.22.02:261][479]LogSlate: Window 'MyProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.16-14.22.02:295][479]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.16-14.22.02:296][479]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.22.02:348][480]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2018.10.16-14.40.28:783][  4]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.16-14.40.36:556][791]LogSlate: Took 0.000268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.16-14.40.36:563][791]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Armas/CuchilloSinose/CuchilloSinos.CuchilloSinos
+[2018.10.16-14.40.37:173][791]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2018.10.16-14.40.38:307][791]LogSlate: Took 0.011200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.10.16-14.43.04:478][366]LogSlate: Window 'CuchilloSinos' being destroyed
+[2018.10.16-14.43.04:482][366]LogSlate: Window 'CuchilloSinos' being destroyed
+[2018.10.16-14.43.25:157][825]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Armas/WeaponBase.WeaponBase
+[2018.10.16-14.43.25:588][826]LogSlate: Took 0.010413 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.10.16-14.43.52:471][796]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.10.16-14.44.26:929][504]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.10.16-14.46.54:554][219]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.10.16-14.46.55:445][274]LogSavePackage: Moving '../../../../../../Users/Jose/Desktop/MyProject/Saved/ThirdPersonCharacterB039F28C49468BE4B949269081341469.tmp' to '../../../../../../Users/Jose/Desktop/MyProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.10.16-14.46.56:588][394]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.16-14.46.56:607][394]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.46.56:608][394]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.16-14.46.56:608][394]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 16, 2018, 4:46:56 PM)
+[2018.10.16-14.46.56:609][394]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.16-14.46.56:623][394]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013891s)
+[2018.10.16-14.46.56:624][394]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.16-14.46.56:625][394]LogPlayLevel: PIE: World Init took: (0.001135s)
+[2018.10.16-14.46.56:625][394]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.015203s)
+[2018.10.16-14.46.56:671][394]LogInit: XAudio2 using 'LG TV (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.16-14.46.56:682][394]LogInit: FAudioDevice initialized.
+[2018.10.16-14.46.56:688][394]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-14.46.56:727][394]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.16-14.46.56:729][394]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.16-15.46.56
+[2018.10.16-14.46.56:729][394]LogWorld: Bringing up level for play took: 0.001560
+[2018.10.16-14.46.56:748][394]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.165
+[2018.10.16-14.46.56:749][394]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.46.59:631][671]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.46.59:632][671]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-14.46.59:647][671]LogSlate: Window 'MyProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.16-14.46.59:679][671]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.16-14.46.59:679][671]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.46.59:736][672]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2018.10.16-14.47.01:004][808]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.16-14.47.01:023][808]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.47.01:023][808]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.16-14.47.01:023][808]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 16, 2018, 4:47:01 PM)
+[2018.10.16-14.47.01:024][808]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.16-14.47.01:036][808]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011573s)
+[2018.10.16-14.47.01:036][808]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.16-14.47.01:036][808]LogPlayLevel: PIE: World Init took: (0.000853s)
+[2018.10.16-14.47.01:037][808]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.012599s)
+[2018.10.16-14.47.01:078][808]LogInit: XAudio2 using 'LG TV (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.16-14.47.01:089][808]LogInit: FAudioDevice initialized.
+[2018.10.16-14.47.01:094][808]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-14.47.01:132][808]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.16-14.47.01:134][808]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.16-15.47.01
+[2018.10.16-14.47.01:134][808]LogWorld: Bringing up level for play took: 0.001219
+[2018.10.16-14.47.01:153][808]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.24
+[2018.10.16-14.47.01:153][808]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.47.01:801][863]LogNet: Browse: /Game/ThirdPersonBP/Maps/Map1
+[2018.10.16-14.47.01:803][863]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/Map1
+[2018.10.16-14.47.02:074][863]LogAIModule: Creating AISystem for world Map1
+[2018.10.16-14.47.02:074][863]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.16-14.47.02:077][863]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 0) at 2018.10.16-15.47.02
+[2018.10.16-14.47.02:077][863]LogWorld: Bringing up level for play took: 0.002053
+[2018.10.16-14.47.02:084][863]LogLoad: Took 0.281664 seconds to LoadMap(/Game/ThirdPersonBP/Maps/Map1)
+[2018.10.16-14.47.04:832][100]LogScript: Warning: Accessed None trying to read property ArmaQuitar
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.ThirdPersonCharacter_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:QuitarArmaActual:0024
+[2018.10.16-14.47.04:832][100]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.47.04:832][100]LogScript: Warning: Accessed None
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.ThirdPersonCharacter_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:QuitarArmaActual:0039
+[2018.10.16-14.47.04:832][100]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.47.06:524][249]LogScript: Warning: Accessed None trying to read property EquipedWeapon
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.ThirdPersonCharacter_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:CambiarArma:007A
+[2018.10.16-14.47.06:525][249]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.47.06:525][249]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.47.09:945][554]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.47.09:945][554]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.47.11:572][699]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.47.11:572][699]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.47.13:309][851]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.47.13:309][851]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.47.14:537][960]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.47.14:538][960]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.47.16:292][117]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.47.16:293][117]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.47.26:849][ 46]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.47.26:849][ 46]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.47.41:496][306]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.47.41:497][306]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-14.47.41:514][306]LogSlate: Window 'MyProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.16-14.47.41:548][306]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.16-14.47.41:549][306]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.47.41:611][307]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2018.10.16-14.48.17:135][328]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.10.16-14.48.17:991][392]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.16-14.48.18:010][392]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.48.18:011][392]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.16-14.48.18:011][392]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 16, 2018, 4:48:18 PM)
+[2018.10.16-14.48.18:012][392]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.16-14.48.18:025][392]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012102s)
+[2018.10.16-14.48.18:026][392]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.16-14.48.18:026][392]LogPlayLevel: PIE: World Init took: (0.001074s)
+[2018.10.16-14.48.18:026][392]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.013388s)
+[2018.10.16-14.48.18:069][392]LogInit: XAudio2 using 'LG TV (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.16-14.48.18:080][392]LogInit: FAudioDevice initialized.
+[2018.10.16-14.48.18:086][392]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-14.48.18:121][392]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.16-14.48.18:123][392]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.16-15.48.18
+[2018.10.16-14.48.18:123][392]LogWorld: Bringing up level for play took: 0.001268
+[2018.10.16-14.48.18:142][392]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.771
+[2018.10.16-14.48.18:142][392]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.48.19:217][487]LogNet: Browse: /Game/ThirdPersonBP/Maps/Map1
+[2018.10.16-14.48.19:222][487]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/Map1
+[2018.10.16-14.48.19:491][487]LogAIModule: Creating AISystem for world Map1
+[2018.10.16-14.48.19:491][487]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.16-14.48.19:494][487]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 0) at 2018.10.16-15.48.19
+[2018.10.16-14.48.19:494][487]LogWorld: Bringing up level for play took: 0.002035
+[2018.10.16-14.48.19:502][487]LogLoad: Took 0.279807 seconds to LoadMap(/Game/ThirdPersonBP/Maps/Map1)
+[2018.10.16-14.48.21:839][691]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.21:839][691]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.21:839][691]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.21:839][691]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.22:680][767]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.22:681][767]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.22:681][767]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.22:681][767]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.22:927][789]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.22:927][789]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.22:927][789]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.22:927][789]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.24:129][897]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.24:129][897]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.24:129][897]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.24:129][897]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.24:377][919]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.24:377][919]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.24:378][919]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.24:378][919]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.24:545][934]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.24:546][934]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.24:546][934]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.24:546][934]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.25:466][ 16]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.25:467][ 16]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.27:424][191]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.27:424][191]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.27:874][231]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.27:875][231]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.28:392][277]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.28:392][277]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.28:833][316]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.28:833][316]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.32:854][670]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.48.32:854][670]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-14.48.32:870][670]LogSlate: Window 'MyProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.16-14.48.32:905][670]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.16-14.48.32:906][670]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.48.32:957][671]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.10.16-14.48.38:210][252]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.10.16-14.48.39:151][298]LogSavePackage: Moving '../../../../../../Users/Jose/Desktop/MyProject/Saved/ThirdPersonCharacter4264711A48374B432D1611B3AB41C822.tmp' to '../../../../../../Users/Jose/Desktop/MyProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.10.16-14.48.39:641][345]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.16-14.48.39:660][345]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.48.39:660][345]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.16-14.48.39:660][345]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 16, 2018, 4:48:39 PM)
+[2018.10.16-14.48.39:662][345]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.16-14.48.39:674][345]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011833s)
+[2018.10.16-14.48.39:675][345]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.16-14.48.39:675][345]LogPlayLevel: PIE: World Init took: (0.000916s)
+[2018.10.16-14.48.39:675][345]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.012943s)
+[2018.10.16-14.48.39:721][345]LogInit: XAudio2 using 'LG TV (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.16-14.48.39:732][345]LogInit: FAudioDevice initialized.
+[2018.10.16-14.48.39:738][345]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-14.48.39:776][345]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.16-14.48.39:778][345]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.16-15.48.39
+[2018.10.16-14.48.39:778][345]LogWorld: Bringing up level for play took: 0.001207
+[2018.10.16-14.48.39:797][345]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.884
+[2018.10.16-14.48.39:798][345]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.48.40:691][417]LogNet: Browse: /Game/ThirdPersonBP/Maps/Map1
+[2018.10.16-14.48.40:700][417]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/Map1
+[2018.10.16-14.48.40:969][417]LogAIModule: Creating AISystem for world Map1
+[2018.10.16-14.48.40:970][417]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.16-14.48.40:973][417]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 0) at 2018.10.16-15.48.40
+[2018.10.16-14.48.40:973][417]LogWorld: Bringing up level for play took: 0.002154
+[2018.10.16-14.48.40:980][417]LogLoad: Took 0.280523 seconds to LoadMap(/Game/ThirdPersonBP/Maps/Map1)
+[2018.10.16-14.48.43:312][593]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.43:312][593]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.45:691][803]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.45:691][803]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.46:168][844]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.46:168][844]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.46:588][880]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.46:588][880]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.48:005][  4]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.48:005][  4]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.48:900][ 84]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.48:900][ 84]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.49:472][135]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.49:472][135]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.50:064][188]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.50:064][188]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.50:511][228]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.50:511][228]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.50:858][259]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.50:858][259]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.51:758][338]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.51:758][338]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.52:143][373]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.52:143][373]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.52:634][417]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.52:634][417]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.53:204][468]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.53:205][468]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.53:650][508]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.53:650][508]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.54:033][542]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.54:033][542]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.54:353][571]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.54:353][571]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.54:609][594]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.54:609][594]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.54:833][614]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.54:833][614]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.55:067][635]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.55:067][635]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.55:289][655]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.55:289][655]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.55:514][675]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.55:514][675]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.55:802][701]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.55:802][701]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.56:023][720]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.56:023][720]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.56:283][744]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.56:283][744]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.56:539][767]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.56:539][767]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.56:727][784]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.56:728][784]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.56:951][804]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.56:951][804]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.57:152][822]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.57:152][822]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.57:375][842]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.57:376][842]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.57:542][857]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.57:543][857]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.57:735][874]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.57:735][874]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.57:921][891]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.57:921][891]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.58:121][909]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.58:122][909]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.58:312][926]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.58:312][926]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.58:501][943]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.58:501][943]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.58:657][957]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.58:657][957]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.58:879][977]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.58:879][977]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.59:080][995]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.59:080][995]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.59:236][  9]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.59:236][  9]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.59:426][ 26]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.59:426][ 26]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.48.59:615][ 43]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.48.59:616][ 43]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.49.00:072][ 84]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.49.00:073][ 84]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.49.00:876][156]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.49.00:876][156]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.49.01:648][225]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.49.01:649][225]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-14.49.01:667][225]LogSlate: Window 'MyProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.16-14.49.01:702][225]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.16-14.49.01:703][225]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.49.01:752][226]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2018.10.16-14.49.04:874][572]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.16-14.49.04:893][572]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.49.04:894][572]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.16-14.49.04:894][572]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 16, 2018, 4:49:04 PM)
+[2018.10.16-14.49.04:895][572]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.16-14.49.04:907][572]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011904s)
+[2018.10.16-14.49.04:908][572]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.16-14.49.04:909][572]LogPlayLevel: PIE: World Init took: (0.001116s)
+[2018.10.16-14.49.04:909][572]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.013240s)
+[2018.10.16-14.49.04:955][572]LogInit: XAudio2 using 'LG TV (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.16-14.49.04:966][572]LogInit: FAudioDevice initialized.
+[2018.10.16-14.49.04:972][572]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-14.49.05:008][572]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.16-14.49.05:010][572]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.16-15.49.05
+[2018.10.16-14.49.05:010][572]LogWorld: Bringing up level for play took: 0.001394
+[2018.10.16-14.49.05:029][572]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.115
+[2018.10.16-14.49.05:029][572]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.49.06:184][671]LogNet: Browse: /Game/ThirdPersonBP/Maps/Map1
+[2018.10.16-14.49.06:193][671]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/Map1
+[2018.10.16-14.49.06:465][671]LogAIModule: Creating AISystem for world Map1
+[2018.10.16-14.49.06:466][671]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.16-14.49.06:469][671]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 0) at 2018.10.16-15.49.06
+[2018.10.16-14.49.06:469][671]LogWorld: Bringing up level for play took: 0.002259
+[2018.10.16-14.49.06:484][671]LogLoad: Took 0.291165 seconds to LoadMap(/Game/ThirdPersonBP/Maps/Map1)
+[2018.10.16-14.49.09:279][832]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.49.09:279][832]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.49.11:344][959]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.49.11:344][959]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.49.11:793][989]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.49.11:793][989]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.49.12:176][ 17]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.49.12:177][ 17]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.49.12:631][ 50]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.49.12:631][ 50]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.49.13:009][ 77]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.49.13:009][ 77]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.49.13:494][112]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.49.13:495][112]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.49.14:003][149]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.49.14:003][149]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.49.14:493][184]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.49.14:493][184]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.49.14:937][215]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.49.14:937][215]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.49.15:392][247]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.49.15:392][247]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.49.15:871][282]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.49.15:871][282]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.49.16:570][334]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.49.16:570][334]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.49.17:147][376]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.49.17:147][376]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.49.17:636][411]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.49.17:636][411]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.49.18:219][453]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.49.18:219][453]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.49.18:699][488]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.49.18:699][488]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.49.19:109][518]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.49.19:109][518]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.49.19:495][546]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.49.19:495][546]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.49.19:776][566]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.49.19:776][566]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.49.21:075][657]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.49.21:076][657]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.49.23:514][832]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.49.23:515][832]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-14.49.23:532][832]LogSlate: Window 'MyProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.16-14.49.23:560][832]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.16-14.49.23:561][832]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.49.23:612][833]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2018.10.16-14.49.39:189][264]LogSlate: Window 'Message Log' being destroyed
+[2018.10.16-14.49.39:194][264]LogSlate: Window 'Message Log' being destroyed
+[2018.10.16-14.50.33:586][453]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.10.16-14.50.35:032][566]LogSavePackage: Moving '../../../../../../Users/Jose/Desktop/MyProject/Saved/ThirdPersonCharacterB4088DC240941FAC943775B605DD96B2.tmp' to '../../../../../../Users/Jose/Desktop/MyProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.10.16-14.50.42:988][443]LogSavePackage: Moving '../../../../../../Users/Jose/Desktop/MyProject/Saved/ThirdPersonCharacter8F87B3784A33B144E5B200AA160DD961.tmp' to '../../../../../../Users/Jose/Desktop/MyProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.10.16-14.50.44:450][597]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.16-14.50.44:469][597]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.50.44:470][597]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.16-14.50.44:470][597]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 16, 2018, 4:50:44 PM)
+[2018.10.16-14.50.44:471][597]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.16-14.50.44:484][597]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013039s)
+[2018.10.16-14.50.44:485][597]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.16-14.50.44:486][597]LogPlayLevel: PIE: World Init took: (0.001035s)
+[2018.10.16-14.50.44:486][597]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.014234s)
+[2018.10.16-14.50.44:533][597]LogInit: XAudio2 using 'LG TV (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.16-14.50.44:544][597]LogInit: FAudioDevice initialized.
+[2018.10.16-14.50.44:550][597]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-14.50.44:587][597]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.16-14.50.44:588][597]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.16-15.50.44
+[2018.10.16-14.50.44:589][597]LogWorld: Bringing up level for play took: 0.001213
+[2018.10.16-14.50.44:607][597]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.307
+[2018.10.16-14.50.44:607][597]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.50.45:851][710]LogNet: Browse: /Game/ThirdPersonBP/Maps/Map1
+[2018.10.16-14.50.45:859][710]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/Map1
+[2018.10.16-14.50.46:126][710]LogAIModule: Creating AISystem for world Map1
+[2018.10.16-14.50.46:126][710]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.16-14.50.46:129][710]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 0) at 2018.10.16-15.50.46
+[2018.10.16-14.50.46:129][710]LogWorld: Bringing up level for play took: 0.002050
+[2018.10.16-14.50.46:137][710]LogLoad: Took 0.277630 seconds to LoadMap(/Game/ThirdPersonBP/Maps/Map1)
+[2018.10.16-14.50.49:656][ 18]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.50.49:656][ 18]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.50.52:272][250]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.50.52:273][250]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.50.53:110][324]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.50.53:110][324]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.50.53:531][361]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.50.53:531][361]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.50.53:744][380]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.50.53:744][380]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.50.53:937][397]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.50.53:937][397]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.50.54:130][414]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.50.54:130][414]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.50.54:288][428]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.50.54:289][428]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.50.54:618][457]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.50.54:618][457]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-14.50.54:635][457]LogSlate: Window 'MyProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.16-14.50.54:669][457]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.16-14.50.54:669][457]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.50.54:729][458]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2018.10.16-14.51.05:374][465]LogSlate: Window 'Message Log' being destroyed
+[2018.10.16-14.51.05:378][465]LogSlate: Window 'Message Log' being destroyed
+[2018.10.16-14.51.06:291][567]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.16-14.51.06:310][567]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.51.06:310][567]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.16-14.51.06:310][567]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 16, 2018, 4:51:06 PM)
+[2018.10.16-14.51.06:312][567]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.16-14.51.06:325][567]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012429s)
+[2018.10.16-14.51.06:325][567]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.16-14.51.06:325][567]LogPlayLevel: PIE: World Init took: (0.000806s)
+[2018.10.16-14.51.06:326][567]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.013395s)
+[2018.10.16-14.51.06:370][567]LogInit: XAudio2 using 'LG TV (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.16-14.51.06:381][567]LogInit: FAudioDevice initialized.
+[2018.10.16-14.51.06:387][567]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-14.51.06:421][567]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.16-14.51.06:423][567]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.16-15.51.06
+[2018.10.16-14.51.06:423][567]LogWorld: Bringing up level for play took: 0.001167
+[2018.10.16-14.51.06:442][567]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.471
+[2018.10.16-14.51.06:442][567]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.51.08:352][743]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.51.08:353][743]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-14.51.08:369][743]LogSlate: Window 'MyProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.16-14.51.08:400][743]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.16-14.51.08:400][743]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.51.08:458][744]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2018.10.16-14.51.09:416][847]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.16-14.51.09:467][847]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.51.09:467][847]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.16-14.51.09:467][847]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 16, 2018, 4:51:09 PM)
+[2018.10.16-14.51.09:468][847]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.16-14.51.09:481][847]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013145s)
+[2018.10.16-14.51.09:482][847]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.16-14.51.09:482][847]LogPlayLevel: PIE: World Init took: (0.001318s)
+[2018.10.16-14.51.09:482][847]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.014680s)
+[2018.10.16-14.51.09:523][847]LogInit: XAudio2 using 'LG TV (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.16-14.51.09:534][847]LogInit: FAudioDevice initialized.
+[2018.10.16-14.51.09:540][847]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-14.51.09:572][847]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.16-14.51.09:574][847]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.16-15.51.09
+[2018.10.16-14.51.09:575][847]LogWorld: Bringing up level for play took: 0.001318
+[2018.10.16-14.51.09:594][847]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.68
+[2018.10.16-14.51.09:594][847]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.51.10:160][892]LogNet: Browse: /Game/ThirdPersonBP/Maps/Map1
+[2018.10.16-14.51.10:161][892]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/Map1
+[2018.10.16-14.51.10:433][892]LogAIModule: Creating AISystem for world Map1
+[2018.10.16-14.51.10:433][892]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.16-14.51.10:436][892]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 0) at 2018.10.16-15.51.10
+[2018.10.16-14.51.10:436][892]LogWorld: Bringing up level for play took: 0.002076
+[2018.10.16-14.51.10:444][892]LogLoad: Took 0.282332 seconds to LoadMap(/Game/ThirdPersonBP/Maps/Map1)
+[2018.10.16-14.51.13:334][143]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ArmaQuitar". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.51.13:334][143]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Quitar Arma Actual Graph:  QuitarArmaActual Node:  DetachFromComponent
+[2018.10.16-14.51.14:903][280]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property EquipedWeapon". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.51.14:903][280]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  ThirdPersonCharacter Function:  Cambiar Arma Graph:  CambiarArma Node:  AttachToComponent
+[2018.10.16-14.51.15:866][363]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.51.15:866][363]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.16-14.51.15:882][363]LogSlate: Window 'MyProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.16-14.51.15:913][363]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.16-14.51.15:913][363]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.16-14.51.15:976][364]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2018.10.16-14.51.25:688][174]LogD3D11RHI: Error: Result failed 
+ at D:\Build\++UE4\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Viewport.cpp:304 
+ with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DEVICE_RESET
+[2018.10.16-14.51.25:688][174]LogD3D11RHI: [Aftermath] GDynamicRHI=000002CC8BD1E0C0, GDX11NVAfterMathEnabled=0, Result=0xFFFFFFFF, bDeviceActive=0
+[2018.10.16-14.51.25:688][174]LogWindows: Windows GetLastError: La operación se completó correctamente. (0)
